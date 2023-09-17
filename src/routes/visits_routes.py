@@ -1,7 +1,11 @@
 from fastapi import APIRouter
+
 from src.models.visit_model import Visit
 
-router = APIRouter(prefix='/api/v1/visits', tags=['Visits'])
+router = APIRouter(
+    prefix='/api/v1/visits',
+    tags=['Visits']
+)
 
 
 @router.get('')

@@ -1,7 +1,4 @@
-import gzip
-from typing import Callable, List
-
-from fastapi import Body, FastAPI, Request, Response
+from fastapi import FastAPI
 
 from src.routes import users_routes
 from src.routes import visits_routes
